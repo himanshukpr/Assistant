@@ -12,8 +12,6 @@ load_dotenv()
 conversation_history = []
 
 
-
-
 while True:
 
     user_command  = input('What to do: ')
@@ -38,7 +36,7 @@ while True:
         "type":"response", "content":"content"
 
         now there is one more condition and that is
-        is the user prompt is not starting with the 'mia bhai' that time it should just say 'Mera name Mia bhai! ha to Mia bhai bhi use kro....' else it  must work normally
+        is the user prompt is not starting with the 'mia bhai' or it can me 'miya bhai' but you have to understand 'mia bhai' by default that time it should just say 'Mera name Mia bhai! ha to Mia bhai bhi use kro....' else it  must work normally
         and the response must be in form:
         "type":"response", "content":"content"
 
